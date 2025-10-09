@@ -5,7 +5,11 @@ os.environ["HF_HOME"] = path_modelweights
 os.environ["HUGGINGFACE_HUB_CACHE"] = path_modelweights
 os.environ["TRANSFORMERS_CACHE"] = path_modelweights
 from huggingface_hub import login
+<<<<<<< HEAD
 
+=======
+# login(token="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")
+>>>>>>> 347b8cd9c18d795397bd98c95169aa12ba753133
 
 import csv
 import numpy as np
